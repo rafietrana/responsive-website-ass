@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap'); */
 *{
     margin: 0;
     padding: 0;
@@ -6,12 +6,209 @@
     font-family: 'Mulish', sans-serif;
 
 }
+body{
+    font-family: 'Mulish', sans-serif;
+}
 .container{
-    max-width: 1440px;
+    max-width: 1124px;
     margin: auto;
+
+}
+.dflex{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+ 
+}
+.space-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+
+/* defult css end */
+/* header-section-start*/
+.header-section{
+    padding: 40px 0;
+}
+.header-right-menu ul li{
+    list-style: none;
+    padding: 0 10px;
+}
+.header-right-menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+/* header-section-end */
+.banner-content p, h1{
+    text-align: center;
     
+    
+}
+.banner-content p {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 17px;
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+.banner-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: #ffffff7d;
+    width: max-content;
+    margin: auto;
+    padding: 20px;
+    margin-top: 32px;
+    border-radius: 20px;
+}
+.background{
+    background: url('Images/Group\ 13\ \(1\)\ \(1\).png');
+    padding: 100px 0;
+    border-radius: 10px;
+    position: relative;
+    
+}
+.background::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    
+    
+}
+.banner-content h1, p{
+    position: relative;
+    z-index: 99999;
+}
+.banner-content h1 {
+    font-size: 60px;
+    font-weight: 800;
+    color: white;
+    
+}
+.banner-content  p {
+    color: white;
+    padding: 23px 0;
+    font-weight: 400;
+}
+.banner-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.banner-form input, select, button {
+    font-size: 15px;
+    border: none;
+    padding: 20px 40px ;
+    background-color: white;
+    font-weight: 500;
+    border-radius: 10px;
+    width: 224px;
+    position: relative;
+    left: 1px;
+    outline: none;
+}
+.banner-form button{
+    background-color: red;
+    color: white;
+}
+/* banner-section-css end */
+/* tour section css start */
+.tour-section{
+    margin: 70px 0;
+}
+.tour-left-content *{
+    text-align: left;
+}
+.tour-side{
+    display: flex;
+    justify-content: space-between;
+}
+.tour-left-content{
+    padding-right: 30px;
 }
 
 
-/* defult css end */
+.btn-primary {
+    text-align: center;
+    background-color: red;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 15px 0px;
+    border-radius: 10px;
+    width: 133px;
+}
+.tour-left-content{}
+.tour-left-content h1{
+    color: #131318;
+
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.tour-left-content p{
+    color: rgba(19, 19, 24, 0.70);
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+margin-top: 30px;
+margin-bottom: 20px;
+}
+.tour-left-content ol li{
+    color: rgba(19, 19, 24, 0.70);
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+/* chose section css start */
+.chose-top{
+    margin: 20px 0;
+}
+.chose-top h1, {
+    text-align: center;
+    color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.chose-top p{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+
+
+
 
